@@ -230,6 +230,16 @@ To use the custom instrumentation in your .NET application:
 
 For more information about how to add spans and tags for custom instrumentation, see the [.NET Custom Instrumentation documentation][8].
 
+## Information collected
+
+When CI Visibility is enabled, some of the following info will be collected from your project and sent to Datadog:
+
+* Test names and durations
+* Predefined environment variables set by CI providers
+* Git commit history including the hash, message, author info and files changed (without file contents).
+* Code coverage information including file names
+* Information from the CODEOWNERS file
+
 ## Further reading
 
 {{< partial name="whats-next/whats-next.html" >}}

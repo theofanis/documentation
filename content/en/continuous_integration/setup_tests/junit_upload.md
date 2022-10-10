@@ -271,6 +271,16 @@ To be processed, the `name` attribute in the `<property>` element must have the 
 </testsuites>
 {{< /code-block >}}
 
+## Information collected
+
+When CI Visibility is enabled, the following data will be collected from your project:
+
+* Test names and durations
+* Predefined environment variables set by CI providers
+* Git commit history including the hash, message, author info and files changed (without file contents).
+* Code coverage information including file names
+* Information from the CODEOWNERS file
+
 **Example**: Adding tags to a `<testsuite>` element
 
 {{< code-block lang="xml" >}}
